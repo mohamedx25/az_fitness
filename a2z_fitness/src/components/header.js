@@ -28,9 +28,7 @@ class Header extends React.Component {
                         <div className='header-logo'>
                             <a href="/index.js" alt='logo'> <img src={logo} alt='a2z logo'></img></a>
                         </div> 
-                        <div className='menu'>
-                            <ToggleButton navClickHandler={()=>this.navToggleClickHandler()}/>
-                        </div>
+                        
                         {sideNav}
                         {/* <SideNav /> */}
                         <div className='header-nav'> 
@@ -40,6 +38,9 @@ class Header extends React.Component {
                                 <li><Link to='/store/'>Store</Link></li>
                                 <li><Link to='/'>Contact</Link></li>
                             </ul>
+                        </div>
+                        <div className='menu'>
+                            <ToggleButton navClickHandler={()=>this.navToggleClickHandler()}/>
                         </div>
                     </div>
                 </header>

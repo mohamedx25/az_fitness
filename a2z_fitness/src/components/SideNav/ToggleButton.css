@@ -1,6 +1,9 @@
 .hamburger{
     padding-top: 50px;
-    right: 0;
+     float: right; 
+        z-index: 100;
+        top: 0;
+        right: 0;
 }
 .toggle-button{
     display: flex;
@@ -14,7 +17,6 @@
     box-sizing: border-box;
     justify-content: space-around;
     align-items: center;
-    
 }
 .toggle-button:focus{
     outline: none;

@@ -67,13 +67,10 @@ body{
     width: 20%;
     margin-right: 0.5rem;
 }
-.menu{
-    flex-direction: column-reverse;
-    width: 100px;
-    float: right;
-}
+
 .header-nav{
     width: 80%;
+    left: 0;
 }
 .header-nav a{
     color: white;
@@ -97,7 +94,6 @@ body{
     padding: 1rem 2rem;
     display: inline-block;
     color: blue;
-
 }
 
 @media(max-width: 960px){
@@ -108,5 +104,8 @@ body{
     .header-nav{
         display: none;
     }
-   
+   .menu{
+    
+       
+   }
 }
