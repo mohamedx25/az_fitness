@@ -1,5 +1,5 @@
 import React from 'react'
-import './store.css'
+import '../components/styles/store.css'
 
 const Store = () => {
   return <h1 className="text-title">Store</h1>

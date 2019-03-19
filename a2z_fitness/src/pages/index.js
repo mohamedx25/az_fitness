@@ -2,10 +2,11 @@ import React, { Component } from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Video from '../components/video'
-import '../components/index.css'
+import '../components/styles/index.css'
 import promo from '../components/images/promotest.mp4'
 // [TO] Warning  'SideNav' is defined but never used
 // import SideNav from '../components/SideNav/SideNav'
+import 'bootstrap/dist/css/bootstrap.css';
 
 const buttonStyles = {
     fontSize: "13px",

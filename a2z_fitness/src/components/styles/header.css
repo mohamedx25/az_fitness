@@ -73,7 +73,7 @@ body{
     left: 0;
 }
 .header-nav a{
-    color: white;
+    color: black;
 }
 .header-nav a:hover,
 .header-nav a:active{
@@ -100,12 +100,23 @@ body{
     .container{
         padding-right: 3rem;
         padding-left: 3rem;
+        
     }
     .header-nav{
         display: none;
     }
-   .menu{
-    
-       
-   }
+   
+} 
+@media(min-height: 768px){
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .header-overlay{
+        max-width: 100%;
+    }
+    .header{
+        width: 100%;
+        
+    }
 }

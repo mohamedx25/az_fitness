@@ -18,7 +18,7 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: row-reverse;
-    background-image: url('../components/images/amine.jpg');
+    background-image: url('../images/Amine.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,6 +91,12 @@ body{
     padding-left: 50px;
 }
 
-/* @media(min-width: 768px){
-
-} */
+ @media(max-width: 768 px){
+    .sports-container{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}

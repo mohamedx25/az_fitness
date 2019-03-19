@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import './header.css'
+import './styles/header.css'
 import logo from '../components/images/logo.png'
 import ToggleButton from './SideNav/ToggleButton';
 import './SideNav/ToggleButton.css';
@@ -34,9 +34,9 @@ class Header extends React.Component {
                         <div className='header-nav'> 
                             <ul>
                                 <li><Link to='/'>Home</Link></li>
-                                <li><Link to='/'>Nutrition</Link></li>
+                                {/* <li><Link to='/'>Nutrition</Link></li> */}
                                 <li><Link to='/store/'>Store</Link></li>
-                                <li><Link to='/'>Contact</Link></li>
+                                <li><Link to='../pages/contact.js'>Contact</Link></li>
                             </ul>
                         </div>
                         <div className='menu'>

@@ -1,6 +1,6 @@
 import React from "react"
 import promo from '../components/images/HIIT-video.mp4'
-import '../components/header.css';
+import '../components/styles/header.css';
 
 const Video = () => (
     <div>
