@@ -23,7 +23,7 @@ class Header extends React.Component {
         }
         return(
             <div>
-                <header className='header'>
+                <header>
                     <div className='header-content'>
                         <div className='header-logo'>
                             <a href="/index.js" alt='logo'> <img src={logo} alt='a2z logo'></img></a>

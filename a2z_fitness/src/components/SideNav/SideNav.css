@@ -32,8 +32,14 @@
 .side-nav a:active{
     color: #1ABC9C;
 }
+
 @media(min-width: 960px){
     .menu{
         display: none;
+        float: right;
+    }
+    .header-content {
+        display: flex;
+        justify-content: space-between;
     }
 }

@@ -102,10 +102,18 @@ body{
         padding-left: 3rem;
         
     }
+    .header-content {
+        /* display: flex;
+        justify-content: space-between; */
+    }
     .header-nav{
         display: none;
+       
     }
-   
+   .menu{
+       float: right;
+       margin-left: 550px;
+   }
 } 
 @media(min-height: 768px){
     .container{

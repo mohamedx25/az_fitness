@@ -14,7 +14,7 @@ class Contact extends React.Component{
                     <h1>Contact Me</h1>
                 </div>
                 <div className='container'>
-                    <form>
+                    <form className='form'>
                         <div>
                             <div className='form-group row'>
                                 <label for='firstName'>First Name</label>
